@@ -1,0 +1,12 @@
+#!/bin/bash
+
+device_count=4
+device="scull"
+
+insmod scull.ko
+
+major=`grep -m 1 scull /proc/devices | cut -d ' ' -f 1`
+
+for (( i=0 ; i<device_count ; i++ )) ; do
+mknod -m 666 /dev/scull${i} c ${major} ${i} ; done
+

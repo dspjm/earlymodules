@@ -1,0 +1,4 @@
+#!/bin/bash
+./scull_unload
+./scull_load
+echo hello2 > /dev/scull0

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+device_count=4
+device="scull"
+
+major=`grep -m 1 scull /proc/devices | cut -d ' ' -f 1`
+
+for (( i=0 ; i<device_count ; i++ )) ; do
+rm /dev/scull${i} ; done
+
+rmmod scull.ko

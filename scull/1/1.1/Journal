@@ -1,0 +1,4 @@
+1.1.0 is obselete because of the bugs
+1.1.1 is rewritten, and works perfect, it is the first stable version, support
+	unlimited size operation
+1.1.2 added function of proc file and semaphores

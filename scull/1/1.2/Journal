@@ -1,0 +1,2 @@
+1.2.1 rewritten scull
+1.2.2 add ioctl command and blocking read, asynchronous io signal to user process, llseek

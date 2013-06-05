@@ -1,0 +1,2 @@
+1.0 initial version, fetch usb device descriptor
+1.1 refined version, endorse ioctl operation to send commands.

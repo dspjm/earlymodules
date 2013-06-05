@@ -1,0 +1,3 @@
+#!/bin/bash
+./unload_scull
+./load_scull

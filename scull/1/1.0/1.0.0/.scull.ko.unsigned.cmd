@@ -1,0 +1,1 @@
+cmd_/home/deity/CAN/Programs/C/scull/1/1.0/1.0.0/scull.ko.unsigned := ld -r -m elf_i386 -T /usr/src/kernels/2.6.32-279.el6.i686/scripts/module-common.lds --build-id -o /home/deity/CAN/Programs/C/scull/1/1.0/1.0.0/scull.ko.unsigned /home/deity/CAN/Programs/C/scull/1/1.0/1.0.0/scull.o /home/deity/CAN/Programs/C/scull/1/1.0/1.0.0/scull.mod.o 
