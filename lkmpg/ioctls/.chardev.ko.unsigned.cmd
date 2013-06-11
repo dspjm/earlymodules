@@ -1,1 +1,0 @@
-cmd_/home/deity/Programs/Exercises/lkmpg/ioctls/chardev.ko.unsigned := ld -r -m elf_i386 -T /usr/src/kernels/2.6.32-220.4.1.el6.i686/scripts/module-common.lds --build-id -o /home/deity/Programs/Exercises/lkmpg/ioctls/chardev.ko.unsigned /home/deity/Programs/Exercises/lkmpg/ioctls/chardev.o /home/deity/Programs/Exercises/lkmpg/ioctls/chardev.mod.o 

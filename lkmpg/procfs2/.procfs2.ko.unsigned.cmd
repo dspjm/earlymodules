@@ -1,1 +1,0 @@
-cmd_/home/deity/CAN/Programs/Exercises/lkmpg/procfs2/procfs2.ko.unsigned := ld -r -m elf_i386 -T /usr/src/kernels/2.6.32-220.4.1.el6.i686/scripts/module-common.lds --build-id -o /home/deity/CAN/Programs/Exercises/lkmpg/procfs2/procfs2.ko.unsigned /home/deity/CAN/Programs/Exercises/lkmpg/procfs2/procfs2.o /home/deity/CAN/Programs/Exercises/lkmpg/procfs2/procfs2.mod.o 
